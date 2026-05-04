@@ -24,7 +24,7 @@ const ALL_TWEETS_BASE: Tweet[] = tweetsData.tweets.map(t => ({
   likes: t.likes,
   retweets: t.retweets,
   category: t.category,
-  tweetId: t.tweet_id || "",
+  tweetId: (t as any).tweet_id || t.id,
 }));
 
 function shuffleArray<T>(array: T[]): T[] {
