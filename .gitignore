@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+scrapper_1.py
+scrapper_2.py
+scrapper_3.py
+scrapper_core.py
+aggregate_tweets.py
+merge_tweets.py
+scrapper.py
+
+
+tweets-1.json
+tweets-2.json
+tweets-3.json
+
+
+/prompts
